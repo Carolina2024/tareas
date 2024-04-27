@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css" /> <!-- con archivo externo css -->
+  <script src="https://kit.fontawesome.com/23956bccd2.js" crossorigin="anonymous"></script> <!-- de fontawesome, crear cta y se copia link del kit -->
+  <title>Tareas</title> <!-- se cambia el title -->
+</head>
+<body>
+  <div class="container"> <!-- comienza el container -->
+    <h2>Todo List</h2>
+    <hr>
+    <div class="nuevaTarea">
+      <p>Nueva Tarea</p>
+      <input id="ingresoTarea" type="text">
+      <button id="btnAgregar" >Agregar</button>
+    </div>
+
+    <div class="registro">
+      <div class="contadores">
+      <p>Total: <span id="contar">0</span></p>
+      <p>Realizadas: <span id="realizadas">0</span></p>
+      </div>
+
+      <div id="tareaLista">
+        <table> <!-- se crea tabla -->
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Tarea</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+
+    </div>
+
+  </div> <!-- termina el container -->
+
+  <script src="assets/js/script.js"></script> <!-- con archivo externo js -->
+</body>
+</html>
